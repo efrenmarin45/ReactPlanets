@@ -70,7 +70,7 @@ const Planet = (props) => {
   return (
       <div className='card'>
         <div>
-          <img src={props.planetImage} alt="Picture of planet"></img>
+          <img src={props.planetImage} alt={props.name}></img>
         </div>
         <h2> {props.name} </h2>
         <p> {props.desc} </p>
